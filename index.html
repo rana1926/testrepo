@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock.Paper.Scissors</title>
+  </head>
+  <body>
+    <main>
+      <div id="score-container">
+        <h1>SCORES</h1>
+        <div class="score">
+          <h1>YOU</h1>
+          <span id="user-score">0</span>
+        </div>
+        <div class="score">
+          <h1>TIES</h1>
+          <span id="ties">0</span>
+        </div>
+        <div class="score">
+          <h1>COMPUTER</h1>
+          <span id="com-score">0</span>
+        </div>
+      </div>
+      <div id="hands-container">
+        <div>
+          <h1>YOU</h1>
+          <div id="user-hand">
+            <div class="hand 1">Rock</div>
+            <div class="hand 2">Paper</div>
+            <div class="hand 3">Scissors</div>
+          </div>
+          <div id="user-btns">
+            <input type="button" value="Rock" name="1" />
+            <input type="button" value="Paper" name="2" />
+            <input type="button" value="Scissors" name="3" />
+          </div>
+        </div>
+        <div>
+          <h1 id="result"></h1>
+        </div>
+        <div>
+          <div><h1>COMPUTER</h1></div>
+
+          <div id="com-hand">
+            <div class="hand 1">Rock</div>
+            <div class="hand 2">Paper</div>
+            <div class="hand 3">Scissors</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./app.js"></script>
+</html>

@@ -1,0 +1,66 @@
+body {
+  background-color: powderblue;
+  font-family: cursive;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+#hands-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#hands-container > div {
+  position: relative;
+}
+
+#hands-container > div:nth-child(2) {
+  width: 30em;
+  justify-content: center;
+}
+
+#user-btns {
+  position: absolute;
+  top: 11em;
+}
+
+#score-container,
+#result {
+  text-align: center;
+}
+
+.score {
+  display: inline-flex;
+  position: relative;
+  height: 13em;
+  width: 13em;
+  background: #0c7111;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.score span {
+  position: absolute;
+  top: 6em;
+  font-size: 22px;
+}
+
+.hand {
+  display: inline-flex;
+  opacity: 0.2;
+  height: 5em;
+  width: 5em;
+  background: #71490c;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
